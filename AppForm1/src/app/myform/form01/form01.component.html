@@ -1,0 +1,23 @@
+<div class='container'>
+    <h1>Primer formulario</h1>
+    <form #formulario>
+      <label>Nombre de usuario:
+        <input type='text' class='form-control'#inputEmail [placeholder]='placeholders.username'>
+      </label>
+      <br>
+      <label>Contraseña:
+        <input type='password' class='form-control' #inputPassword [placeholder]='placeholders.userpass'>
+      </label>
+      <br>
+      <input type='button' class='btn btn-primary' (click)= recibirDatos(inputEmail,inputPassword) value='Aceptar'>
+    </form>
+    <div class="row"><br></div>
+    <ng-container *ngIf="(nombreRecibido > '' && passRecibida > ''); else faltanDatos">
+      El nombre de usuario es: <strong>{{nombreRecibido}}</strong>
+      <br>
+      La clave es: <strong>{{passRecibida}}</strong>
+    </ng-container>
+    <ng-template #faltanDatos>
+      Falta el nombre de usuario, la clave o ambos.
+    </ng-template>
+  </div>

@@ -1,0 +1,16 @@
+<!-- <ul>
+
+  <a [routerLink]="['../customer/1']">Cliente1</a>
+  <a [routerLink]="['../customer/2']">Cliente2</a>
+  <a [routerLink]="['../customer/3']">Cliente3</a>
+
+
+</ul>-->
+
+<ul>
+  <li *ngFor="let customer of arrayCustomers">
+   <!-- <a [routerLink]="['../customer', 'customer._id']">{{customer.name}}</a>-->
+  <a routerLink ='../customer/{{customer.index}}'>{{customer.name}}</a>
+
+  </li>
+</ul>
