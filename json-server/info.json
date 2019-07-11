@@ -1,0 +1,103 @@
+{
+  "members": [
+    [
+      {
+        "_id": "5d245085740e4d76cc698e60",
+        "id": 0,
+        "name": "Marisa Valentine",
+        "gender": "female",
+        "company": "APPLICA",
+        "email": "marisavalentine@applica.com",
+        "phone": "+1 (865) 536-3766",
+        "address": "460 Polar Street, Brogan, Missouri, 4897"
+      },
+      {
+        "_id": "5d245085575d2deaa61c49e9",
+        "id": 1,
+        "name": "Irwin Deleon",
+        "gender": "male",
+        "company": "CABLAM",
+        "email": "irwindeleon@cablam.com",
+        "phone": "+1 (971) 580-2107",
+        "address": "577 Grace Court, Franklin, Kansas, 6362"
+      },
+      {
+        "_id": "5d245085055f70100941bf13",
+        "id": 2,
+        "name": "Silva Forbes",
+        "gender": "male",
+        "company": "NETPLODE",
+        "email": "silvaforbes@netplode.com",
+        "phone": "+1 (998) 419-2397",
+        "address": "135 Clermont Avenue, Chemung, American Samoa, 8662"
+      },
+      {
+        "_id": "5d245085c0a05c338a73ae87",
+        "id": 3,
+        "name": "Park Mccormick",
+        "gender": "male",
+        "company": "GEEKULAR",
+        "email": "parkmccormick@geekular.com",
+        "phone": "+1 (858) 425-2545",
+        "address": "402 Strong Place, Omar, Federated States Of Micronesia, 6047"
+      },
+      {
+        "_id": "5d245085c8081b3b4e5c5c54",
+        "id": 4,
+        "name": "Dean Norton",
+        "gender": "male",
+        "company": "COMVEY",
+        "email": "deannorton@comvey.com",
+        "phone": "+1 (923) 539-2529",
+        "address": "670 Whitney Avenue, Chesapeake, New Hampshire, 1811"
+      },
+      {
+        "_id": "5d24508564913dfc444586c8",
+        "id": 5,
+        "name": "Muriel Richmond",
+        "gender": "female",
+        "company": "MULTRON",
+        "email": "murielrichmond@multron.com",
+        "phone": "+1 (914) 534-2235",
+        "address": "959 Lloyd Street, Crenshaw, Maine, 3293"
+      },
+      {
+        "_id": "5d245085935e03aa0d4b1b43",
+        "id": 6,
+        "name": "Berta Wolfe",
+        "gender": "female",
+        "company": "AQUAMATE",
+        "email": "bertawolfe@aquamate.com",
+        "phone": "+1 (913) 443-3088",
+        "address": "319 Canal Avenue, Fillmore, Puerto Rico, 8765"
+      },
+      {
+        "_id": "5d24508527f091512ea186a4",
+        "id": 7,
+        "name": "Cathleen Anderson",
+        "gender": "female",
+        "company": "EMOLTRA",
+        "email": "cathleenanderson@emoltra.com",
+        "phone": "+1 (801) 532-3954",
+        "address": "870 President Street, Troy, Vermont, 3388"
+      }
+    ]
+  ],
+  "users": [
+    {
+      "email": "mymy@mail.com",
+      "password": "$2a$10$G4dN7Z3M2Iy/1JY0daNude8szvq76NSDLE5ne6hrhB83GFnmtKBIG",
+      "id": 1
+    },
+    {
+      "email": "my2ndmail@mail.com",
+      "password": "$2a$10$evd7ztz3bmLb6XlckgxEcuz4fARTseQlCH9AO6W70Ueqit24EtVXm",
+      "id": 2
+    },
+    {
+      "email": "my3rdmail@mail.com",
+      "password": "$2a$10$6QFLZxQFvHFKwWABd46lN.6ZjeE8bMINbmw/PiGSO.8cInw7/g3Jq",
+      "id": 3
+    }
+  ]
+}
